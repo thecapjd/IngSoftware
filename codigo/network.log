@@ -1,0 +1,23 @@
+2025-04-12 08:00:01, Sistema iniciado correctamente.
+2025-04-12 08:00:12, IP: 192.168.1.10, Bytes: 2048
+2025-04-12 08:00:15, Usuario "admin" inició sesión desde terminal TTY1
+2025-04-12 08:00:22, IP: 10.0.0.5, Bytes: 950
+2025-04-12 08:00:33, Servicio "sshd" iniciado.
+2025-04-12 08:01:05, IP: 192.168.1.15, Bytes: 7300
+2025-04-12 08:01:07, ERROR: Acceso denegado al archivo /etc/shadow
+2025-04-12 08:01:20, Intento de conexión fallido desde IP 203.0.113.20
+2025-04-12 08:01:35, IP: 192.168.1.10, Bytes: 1024
+2025-04-12 08:01:40, Lectura del archivo /var/log/auth.log completada
+2025-04-12 08:01:58, IP: 192.168.1.15, Bytes: 10000
+2025-04-12 08:02:10, Usuario "jose" cerró sesión.
+2025-04-12 08:02:30, IP: 192.168.1.10, Bytes: 1400
+2025-04-12 08:02:45, IP: 10.0.0.5, Bytes: 2200
+2025-04-12 08:03:01, Copia de seguridad iniciada en /backup/drive1
+2025-04-12 08:03:12, IP: 192.168.1.15, Bytes: 3200
+2025-04-12 08:03:30, ERROR: Permiso denegado al escribir en /mnt/data
+2025-04-12 08:03:45, IP: 192.168.1.10, Bytes: 1800
+2025-04-12 08:04:05, Servicio "cron" ejecutado: script diario.sh
+2025-04-12 08:04:10, IP: 10.0.0.5, Bytes: 1600
+2025-04-12 08:04:25, Usuario "maria" cambió su contraseña exitosamente.
+2025-04-12 08:04:50, IP: 192.168.1.15, Bytes: 5000
+2025-04-12 08:05:00, Sistema en modo espera.

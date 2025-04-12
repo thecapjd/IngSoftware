@@ -1,0 +1,73 @@
+INFORME
+
+La funcionalidad principal (análisis de logs, alertas y reporte) fue desarrollada en sesiones de codificación en pareja. Uno escribía el código (driver) y otro revisaba en tiempo real y sugería mejoras (navigator).
+
+Ventajas observadas:
+
+Detección temprana de errores
+
+Mejor comprensión compartida del problema
+
+Estilo de código más limpio y mantenible
+
+Reuniones Diarias (Daily Standups)
+Durante el Sprint se realizaron reuniones breves (10-15 min) para revisar:
+
+Qué se hizo ayer
+
+Qué se hará hoy
+
+Si hay algún impedimento
+
+Ejemplo de nota diaria:
+
+Día	Avances	Obstáculos	Próximas tareas
+1	Configurado entorno y definido backlog	Ninguno	Empezar pruebas TDD
+2	Pruebas listas y función parse_log_line completada	Una línea no coincidía, se ajustó regex	Procesamiento de IPs y conteo de bytes
+3	Detección por umbral implementada	—	Mejorar mensajes de alerta
+Integración Continua con Git
+Se utilizó GitHub como repositorio compartido. Buenas prácticas aplicadas:
+
+Commits frecuentes con mensajes claros
+
+Pull Requests con revisión entre pares
+
+Corrección rápida de errores tras pruebas automatizadas
+
+Administración del Proyecto Ágil y Escalamiento
+
+Retrospectiva del Sprint
+¿Qué funcionó bien?
+
+Git ayudó a visualizar el progreso.
+
+La comunicación diaria permitió detectar y resolver bloqueos rápido.
+
+¿Qué no funcionó?
+
+Algunas tareas se subestimaron (el diseño del parser tomó más tiempo).
+
+La validación de datos no estaba contemplada en el backlog inicialmente.
+
+¿Qué mejoraremos?
+
+Añadir validación de formato como historia adicional.
+
+Refinar mejor las tareas en la planificación para siguientes sprints.
+
+Escalamiento
+Para un proyecto más grande, propusimos:
+
+Dividir el sistema en módulos (parser, análisis, alertas, UI).
+
+Asignar a cada mini-equipo uno de los módulos.
+
+Planificar múltiples sprints en un Release Plan con entregas funcionales intermedias.
+
+Esto permitiría crecer el proyecto hacia:
+
+Un sistema de análisis en tiempo real
+
+Exportación de reportes
+
+Monitor web de alertas
